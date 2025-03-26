@@ -24,7 +24,7 @@ const Chatbot = ({ tier }) => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/chat", { userQuery: input });
+      const response = await axios.post("http://52.86.234.22:5000/chat", { userQuery: input });
 
       const botMessage = {
         sender: "bot",
