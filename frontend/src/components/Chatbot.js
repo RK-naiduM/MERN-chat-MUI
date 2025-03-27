@@ -40,7 +40,7 @@ const Chatbot = ({ tier }) => {
   };
 
   return (
-    <Paper sx={{ padding: 3, display: "flex", flexDirection: "column", height: "1000px", maxWidth: 1000, margin: "0 auto" }}>
+    <Paper sx={{ padding: 3, display: "flex", flexDirection: "column", height: "800px", maxWidth: 1000, margin: "0 auto" }}>
       <Typography variant="h5" align="center" sx={{ marginBottom: 2 }}>
         {tier} Chatbot
       </Typography>
